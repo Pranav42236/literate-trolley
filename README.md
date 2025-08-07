@@ -1,2 +1,4 @@
 # literate-trolley
-This project builds a web-connected, RFID-powered smart shopping trolley with live cart, checkout, and extras like supermarket map and entertainment. It uses ESP32, RFID, WiFi, web server, and WebSocket for real-time browser-based control. You can freely modify, use, and publish this code on GitHub for learning or further development.
+The project is a smart shopping trolley system using an ESP32 microcontroller and an RFID reader. It connects to WiFi and runs a web server with WebSocket support to provide a real-time, interactive shopping cart interface accessible via a browser. Users add or remove items by scanning RFID tags mapped to specific products. The web interface displays the cart, payment summary, supermarket map, entertainment content, and settings. The system updates the cart live via WebSocket without page reloads.
+
+To use it, wire the ESP32 with the RFID module, update WiFi credentials and RFID tag UIDs, then upload the code via Arduino IDE. Access the ESP32 IP in a browser to interact with the trolley.
